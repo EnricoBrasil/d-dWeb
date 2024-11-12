@@ -15,14 +15,14 @@ const Login = () => {
   return (
     <div className="container">
       <form onSubmit={hacndleSubmit}>
-        <h1>Acesse o sitema</h1>
-        <div>
+        <h1>Acesse a sua conta</h1>
+        <div className="input-field">
           <input type="email" placeholder="E-mail" 
           onChange={(e) => setUsename(e.target.value)}/>
           <FaUser className="icon"/>
         </div>
         
-        <div>
+        <div className="input-field">
           <input type="password" placeholder="Senha" 
           onChange={(e) => setPassword(e.target.value)}/>
           <FaLock className="icon"/>

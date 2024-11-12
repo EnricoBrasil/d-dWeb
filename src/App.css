@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-shadow: #000 1px 1px;
     font-family: Helvetica;
 }
 
@@ -11,7 +10,4 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url("assets/95d007dd52133c433931e6e3e1e67c4d.jpg");
-    background-size: cover;
-    background-position: center;
 }
